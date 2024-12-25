@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./giangsinh.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/470809948_122129869700539094_7094751270668972131_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=2rPfgorlXbcQ7kNvgHq29Z2&_nc_zt=23&_nc_ht=scontent.fdad3-1.fna&_nc_gid=ALzfxHH5FVl0tFnDOTtyCLV&oh=00_AYDc8KRLBW9RswyZ95b_AeeBpJBr19UG8fi4afo3zqRCNg&oe=67717456" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Thiệp nè
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img
+                    src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/470809948_122129869700539094_7094751270668972131_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=2rPfgorlXbcQ7kNvgHq29Z2&_nc_zt=23&_nc_ht=scontent.fdad3-1.fna&_nc_gid=ALzfxHH5FVl0tFnDOTtyCLV&oh=00_AYDc8KRLBW9RswyZ95b_AeeBpJBr19UG8fi4afo3zqRCNg&oe=67717456">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <p>Giáng Sinh đến rồi.</p>
+                <p>Chúc lớp 24STC1 mùa lễ ấm áp</p>
+                <p>mãi mãi vui vẻ nhé lớp của chúng ta.</p>
+                <p>Cảm ơn các bạn.</p>
+                <p>Hy vọng chúng ta sẽ có thêm nhiều</p>
+                <p>kỷ niệm đẹp trong năm tới.</p>
+                <p class="text-right">Chúc mừng Giáng Sinh!</p>
+                <p class="text-right">♥Thành Ân♥</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
